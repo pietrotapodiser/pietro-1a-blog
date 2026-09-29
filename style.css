@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: #fdfcf9;
+    color: #1c1c1c;
+    line-height: 1.6;
+}
+.header{
+    padding: 40px 24px 24px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.tagline{
+    color: #5c5c5c;
+    margin-top: 6px;
+
+}
+
+.feed{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 8px 24px 48px ;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.post-card{
+    display: block;
+    text-decoration: none;
+    color: #1c1c1c;
+    border-bottom: 1px solid #e8e4dc;
+    padding-bottom: 24px;
+}
+
+.post-card img{
+    width:100% ;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.post-card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.post-meta{
+    font-size: 13px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+
+.post-resumo{
+    color: #333333;
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #b23a48;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.post-completo {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 8px 24px 64px;
+}
+
+.post-completo img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 16px 0 24px;
+}
+.post-completo h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.post-completo p {
+  margin-bottom: 18px;
+  font-size: 17px;
+  color: #2a2a2a;
+}
+.reacoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.botao-curtir,
+.botao-descurtir {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+ 
+.botao-curtir {
+  background: #1c1c1c;
+  color: #ffffff;
+}
+ 
+.botao-descurtir {
+  background: #ffffff;
+  color: #1c1c1c;
+  border: 1px solid #e8e4dc;
+}
